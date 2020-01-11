@@ -2,11 +2,11 @@
 
 ## The Chain + ForgeRock Common Audit (CAUD)
 
-No matter your motivations to store your IAM data on a BlockChain, the event hander published here greatly simplifies the 'plumbing' required by providing a zero-code/configuration-only framework. In other words by using this ForgeRock CAUD event handler you too can start storing whatever [ForgeRock](https://forgerock.com) data you want to The Chain.
+No matter your motivations to store your IAM data on a BlockChain, the event hander published here greatly simplifies the 'plumbing' required by providing a zero-code/configuration-only framework. In other words by using this ForgeRock audit event handler you too can start storing your [ForgeRock](https://forgerock.com) data on The Chain.
 
-(If you are not familiar with the [CAUD](https://www.forgerock.com/platform/common-services/common-audit) it is a framework for audit event handlers that are plugged in to our individual products. The handlers record events, logging them for example into files, relational databases, syslog, and now thanks to this repository... (drumroll)... the [BlockChain](https://www.forgerock.com/blog/blockchain-distributed-ledger-technology-dlt)).
+(If you are not familiar with the [CAUD](https://www.forgerock.com/platform/common-services/common-audit) it is a framework for audit event handlers that are plugged in to our individual products. The handlers record events, logging them for example into files, relational databases, syslog, and now thanks to this repository the [BlockChain](https://www.forgerock.com/blog/blockchain-distributed-ledger-technology-dlt)).
 
-The instructions for configuring the CAUD vary slightly from product to product; in the interest of simplicity the below is for openidm running on Ubuntu. But the instructions for configuring a BlockChain vary tremendously from chain to chain thus in the interest of simplicity the below uses the extremely user-friendly BlockChain-as-a-Service from [Kalaido](http://Kalaido.io), one of those [ConsenSys](http://ConsenSys.com) companies.
+The instructions for configuring the CAUD vary slightly from product to product; in the interest of simplicity the below is for openidm running on Ubuntu. But the instructions for configuring a BlockChain vary tremendously from chain to chain thus in the interest of simplicity the below uses the enterprise-friendly BlockChain-as-a-Service from [Kaleido](http://Kaleido.io), a [ConsenSys](http://ConsenSys.com) company.
 
 #### Steps to build
 - download or clone this repo
